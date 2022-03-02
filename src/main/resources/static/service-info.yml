@@ -1,0 +1,45 @@
+yaml:
+  name: services
+  services:
+    - service:application-service
+      version:1.0
+      status:Up
+      min_resp_time:5ms
+      avg_resp_time:7ms
+      max_resp_time:9ms
+    - service:authentication-service
+      version:1.0
+      status:Up
+      min_resp_time:4ms
+      avg_resp_time:6ms
+      max_resp_time:9ms
+    - service:customer-service
+      version:1.0
+      status:Up
+      min_resp_time:6ms
+      avg_resp_time:7ms
+      max_resp_time:9ms
+    - service:erasure-service
+      version:1.0
+      status:Up
+      min_resp_time:7ms
+      avg_resp_time:10ms
+      max_resp_time:14ms
+    - service:history-service
+      version:1.0
+      status:Up
+      min_resp_time:6ms
+      avg_resp_time:7ms
+      max_resp_time:8ms
+    - service:payment-service
+      version:1.0
+      status:Up
+      min_resp_time:9ms
+      avg_resp_time:12ms
+      max_resp_time:16ms
+    - service:user-service
+      version:1.0
+      status:Up
+      min_resp_time:14ms
+      avg_resp_time:16ms
+      max_resp_time:19ms
